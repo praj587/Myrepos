@@ -1,0 +1,42 @@
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\POC Go.csproj.CoreCompileInputs.cache
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\POC Go.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Release\POC Go.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Release\POC Go.pdb
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Release\POC_Go.POC_Go.apk
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Release\POC_Go.POC_Go-Signed.apk
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\POC Go.csprojResolveAssemblyReference.cache
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\POC Go.pdb
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\bin\POC_Go.POC_Go.apk
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\res\layout\main.xml
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\res\values\strings.xml
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\res\drawable\icon.png
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\R.cs.flag
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\uploadflags.txt
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Release\POC Go.dll.mdb
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\POC Go.dll.mdb
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Release\POC Go.dll
+bin\Release\Mono.Android.pdb
+bin\Release\mscorlib.pdb
+bin\Release\System.Core.pdb
+bin\Release\System.pdb
+bin\Release\System.Web.Services.pdb
+bin\Release\System.Xml.pdb
+bin\Release\System.Xml.Linq.pdb
+bin\Release\System.Net.Http.pdb
+bin\Release\System.Runtime.Serialization.pdb
+bin\Release\System.ServiceModel.Internals.pdb
+bin\Release\Mono.Security.pdb
+bin\Release\System.ComponentModel.Composition.pdb
+obj\Release\linksrc\POC Go.dll.mdb
+obj\Release\linksrc\Mono.Android.pdb
+obj\Release\linksrc\mscorlib.pdb
+obj\Release\linksrc\System.Core.pdb
+obj\Release\linksrc\System.pdb
+obj\Release\linksrc\System.Web.Services.pdb
+obj\Release\linksrc\System.Xml.pdb
+obj\Release\linksrc\System.Xml.Linq.pdb
+obj\Release\linksrc\System.Net.Http.pdb
+obj\Release\linksrc\System.Runtime.Serialization.pdb
+obj\Release\linksrc\System.ServiceModel.Internals.pdb
+obj\Release\linksrc\Mono.Security.pdb
+obj\Release\linksrc\System.ComponentModel.Composition.pdb

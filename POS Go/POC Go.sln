@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "POC Go", "POC Go\POC Go.csproj", "{EEF9293C-B8ED-446D-A0C1-E167F41BB6B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EEF9293C-B8ED-446D-A0C1-E167F41BB6B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEF9293C-B8ED-446D-A0C1-E167F41BB6B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEF9293C-B8ED-446D-A0C1-E167F41BB6B6}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EEF9293C-B8ED-446D-A0C1-E167F41BB6B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEF9293C-B8ED-446D-A0C1-E167F41BB6B6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEF9293C-B8ED-446D-A0C1-E167F41BB6B6}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B4AC3A65-BD5D-486D-BFBB-40D3DAC8006D}
+	EndGlobalSection
+EndGlobal

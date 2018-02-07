@@ -1,0 +1,8 @@
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\POC Go.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\Java.Interop.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\Mono.Android.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\mscorlib.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\System.Core.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\System.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\System.Web.Services.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Release\android\assets\System.Runtime.Serialization.dll

@@ -1,0 +1,13 @@
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Debug\POC Go.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Debug\POC Go.pdb
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Debug\POC_Go.POC_Go.apk
+C:\Users\p9raj1\source\repos\POC Go\POC Go\bin\Debug\POC_Go.POC_Go-Signed.apk
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\POC Go.csproj.CoreCompileInputs.cache
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\POC Go.dll
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\POC Go.pdb
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\android\bin\POC_Go.POC_Go.apk
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\res\layout\main.xml
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\res\values\strings.xml
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\res\drawable\icon.png
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\R.cs.flag
+C:\Users\p9raj1\source\repos\POC Go\POC Go\obj\Debug\uploadflags.txt

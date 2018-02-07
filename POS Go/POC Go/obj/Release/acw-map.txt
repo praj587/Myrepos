@@ -1,0 +1,8 @@
+POC_Go.MainActivity, POC Go;md53d2801bc2168f5764389c7f74e9e849d.MainActivity
+POC_Go.MainActivity, POC Go, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53d2801bc2168f5764389c7f74e9e849d.MainActivity
+POC_Go.MainActivity;md53d2801bc2168f5764389c7f74e9e849d.MainActivity
+poc_go.MainActivity;md53d2801bc2168f5764389c7f74e9e849d.MainActivity
+POC_Go.MainActivity/HybridWebViewClient, POC Go;md53d2801bc2168f5764389c7f74e9e849d.MainActivity_HybridWebViewClient
+POC_Go.MainActivity+HybridWebViewClient, POC Go, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md53d2801bc2168f5764389c7f74e9e849d.MainActivity_HybridWebViewClient
+POC_Go.MainActivity.HybridWebViewClient;md53d2801bc2168f5764389c7f74e9e849d.MainActivity_HybridWebViewClient
+poc_go.MainActivity_HybridWebViewClient;md53d2801bc2168f5764389c7f74e9e849d.MainActivity_HybridWebViewClient
