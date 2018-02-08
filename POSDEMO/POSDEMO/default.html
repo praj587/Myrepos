@@ -1,0 +1,190 @@
+﻿<html>
+<head>
+    <title>POS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!--<link href="style.css" rel="stylesheet" />-->
+    <link href="Content/style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container" style="background-image: linear-gradient(rgb(104, 145, 162), rgb(12, 97, 33));">
+        <div id="wrapper" class="active">
+
+            <!-- Sidebar -->
+            <!-- Sidebar -->
+            <div id="sidebar-wrapper">
+                <ul id="sidebar_menu" class="sidebar-nav">
+                    <li class="sidebar-brand"><a id="menu-toggle" href="#">Menu<span id="main_icon" class="glyphicon glyphicon-align-justify"></span></a></li>
+                </ul>
+                <ul class="sidebar-nav" id="groupsidebar">
+                    <li><a>Link1<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+                    <li><a>link2<span class="sub_icon glyphicon glyphicon-link"></span></a></li>
+                </ul>
+            </div>
+
+            <!-- Page content -->
+            <div id="page-content-wrapper">
+                <!-- Keep all page content within the page-content inset div! -->
+                <div class="page-content inset">
+                    <form>
+                        <!--Product-->
+                        <div class="addon" style="height: 50%;overflow-y: scroll;">
+                            <p>What's this?</p>
+                            <ul id="prods">
+                                <li class="clearfix products" id="001" >
+                                  
+                                        <img class="round" src="https://8share-production-my.s3.amazonaws.com/campaigns/4898/photos/profile/thumb_copy.png?1397732185">
+                                        <div class="legend-info">
+                                            <strong class="pname">Butter Braid</strong><span class="pcurrency"> ₹</span><span class="pprice">12</span>
+</div>
+                                    
+                                </li>
+                                <li class="clearfix products" id="002" >
+                                    <em class="hot"></em>
+                                    <div class="legend-info">
+                                        <strong  class="pname">Dr. Oetker</strong><span class="pcurrency"> ₹</span><span class="pprice">10</span>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div>
+                        <!-- Product List End-->
+
+                        <!--summary-->
+                        <div style="height: 30%;overflow-y: scroll;">
+                            <table id="tblsummary" class="table table-bordered table-inverse table-fixed" style="background: #fff;border-radius: 30px">
+                                <thead>
+                                    <tr>
+                                        <th class="hidden">Id</th>
+                                        <th>
+                                        <th>Item Name</th>
+                                        <th>Price (Rs)</th>
+                                        <th>Qty</th>
+                                        <th>Amt</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!--<tr class="item">
+                                        <th scope="row">1</th>
+                                        <td class="iname">Bird's Custard</td>
+                                        <td class="iprice">Bird's Custard</td>
+                                        <td class="iqty">0</td>
+                                        <td class="iamt">0/td>
+                                    </tr>
+                                    <tr class="item">
+                                        <th scope="row">2</th>
+                                        <td class="iname">Butter Braid</td>
+                                        <td class="iprice">Bird's Custard</td>
+                                        <td class="iqty">0</td>
+                                        <td class="iamt">0</td>
+                                    </tr>-->
+                                   
+                                 
+                                </tbody>
+                            </table>
+
+                           
+
+                        </div>
+
+
+                          
+
+
+
+                            <!--Bottom Bar-->
+                            <div class="navbar navbar-default navbar-fixed-bottom" style="left:150px">
+                                <div class="fluid-container">
+
+                                    <table class="table tbltotal table-responsive table-inverse" style="background: #fff;border-radius: 30px">
+
+                                        <tbody>
+
+                                            <tr>
+
+                                                <td class="lbltotaltxt" colspan="2">Bill Total(Rs.)</td>
+                                                <td class="lbltotal">0</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+
+                                    <div class="row" style="height: 20%;overflow-y: scroll;">
+                                        <div class="form-group col-xs-10 col-sm-4 col-md-4 col-lg-4">
+                                            <label for="lblcardno">Card Number</label>
+                                           
+                                        </div>
+                                        <div class="form-group col-xs-12 col-sm-8 col-md-4 col-lg-4">
+                                         
+                                            <input type="text" class="form-control" id="txtcardno" placeholder="Enter 10 digit no">
+                                        </div>
+                                    </div>
+
+
+                                    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#payModal" style="width:100%" data-toggle="dropdown" aria-expanded="false">
+                                        <span class="glyphicon glyphicon-cutlery" aria-hidden="true"></span> PAY
+                                    </button>
+
+
+                                </div>
+
+                            </div>
+
+                            <!--Bottom bar End-->
+                            <!--Payment Modal-->
+                            <!-- Modal -->
+                            <div class="modal fade" id="payModal" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Payment</h4>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>Some text in the modal.</p>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <!-- Modal End-->
+
+
+</form>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script type="text/javascript">
+      
+          //sidemenu
+              $("#menu-toggle").click(function (e) {
+                  e.preventDefault();
+                  $("#wrapper").toggleClass("active");
+              });
+         
+             
+            
+      </script>
+    <link href="Content/sidemenu.css" rel="stylesheet" />
+    <script src="Content/plusminus.js"></script>
+    <script src="Content/product.js"></script>
+    <script src="Content/RestServices.js"></script>
+</body>
+</html>  
