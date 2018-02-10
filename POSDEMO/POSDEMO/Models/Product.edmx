@@ -42,6 +42,7 @@
     </Key>
     <Property Name="CardId" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
     <Property Name="CardNo" Type="nvarchar(max)" Nullable="false" />
+    <Property Name="BalanceAmt" Type="decimal" Nullable="false" />
   </EntityType>
 </Schema></edmx:StorageModels>
     <!-- CSDL content -->
@@ -84,6 +85,7 @@
           </Key>
           <Property Name="CardId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="CardNo" Type="String" Nullable="false" />
+          <Property Name="BalanceAmt" Type="Decimal" Nullable="false" />
         </EntityType>
       </Schema>
     </edmx:ConceptualModels>
@@ -124,6 +126,7 @@
         <MappingFragment StoreEntitySet="CardDetails">
           <ScalarProperty Name="CardId" ColumnName="CardId" />
           <ScalarProperty Name="CardNo" ColumnName="CardNo" />
+          <ScalarProperty Name="BalanceAmt" ColumnName="BalanceAmt" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

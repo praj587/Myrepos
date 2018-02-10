@@ -34,6 +34,7 @@
         <MappingFragment StoreEntitySet="CardDetails">
           <ScalarProperty Name="CardId" ColumnName="CardId" />
           <ScalarProperty Name="CardNo" ColumnName="CardNo" />
+          <ScalarProperty Name="BalanceAmt" ColumnName="BalanceAmt" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>

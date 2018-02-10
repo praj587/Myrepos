@@ -37,5 +37,6 @@
     </Key>
     <Property Name="CardId" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
     <Property Name="CardNo" Type="String" Nullable="false" />
+    <Property Name="BalanceAmt" Type="Decimal" Nullable="false" />
   </EntityType>
 </Schema>

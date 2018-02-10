@@ -2,7 +2,7 @@
 -- --------------------------------------------------
 -- Entity Designer DDL Script for SQL Server 2005, 2008, 2012 and Azure
 -- --------------------------------------------------
--- Date Created: 02/08/2018 09:26:17
+-- Date Created: 02/09/2018 09:02:20
 -- Generated from EDMX file: C:\Users\p9raj1\Documents\Visual Studio 2015\Projects\POSDEMO\POSDEMO\Models\Product.edmx
 -- --------------------------------------------------
 
@@ -17,12 +17,6 @@ GO
 -- Dropping existing FOREIGN KEY constraints
 -- --------------------------------------------------
 
-IF OBJECT_ID(N'[dbo].[FK_ProductGroupProduct]', 'F') IS NOT NULL
-    ALTER TABLE [dbo].[Products] DROP CONSTRAINT [FK_ProductGroupProduct];
-GO
-IF OBJECT_ID(N'[dbo].[FK_UsersCardDetails]', 'F') IS NOT NULL
-    ALTER TABLE [dbo].[Users] DROP CONSTRAINT [FK_UsersCardDetails];
-GO
 
 -- --------------------------------------------------
 -- Dropping existing tables
@@ -73,7 +67,8 @@ GO
 -- Creating table 'CardDetails'
 CREATE TABLE [dbo].[CardDetails] (
     [CardId] int IDENTITY(1,1) NOT NULL,
-    [CardNo] nvarchar(max)  NOT NULL
+    [CardNo] nvarchar(max)  NOT NULL,
+    [BalanceAmt] decimal(18,0)  NOT NULL
 );
 GO
 

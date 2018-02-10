@@ -16,5 +16,6 @@ namespace POSDEMO.Models
     {
         public int CardId { get; set; }
         public string CardNo { get; set; }
+        public decimal BalanceAmt { get; set; }
     }
 }

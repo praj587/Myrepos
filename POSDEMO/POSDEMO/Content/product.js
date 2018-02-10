@@ -1,5 +1,6 @@
 ﻿//On Product li click add row to summary
-$("#prods li").click(function (e) {
+//$("#prods li").click(function (e) {
+$(document.body).on('click', '#prods li', function (e) {
     var prodname;
     var prodprice;
     var prodid;
@@ -8,7 +9,7 @@ $("#prods li").click(function (e) {
     prodprice = $(this).find(".pprice").text();
     var tf = true;
     tf = changeqty(prodid, prodprice, tf,"false");
-    if (tf == true)
+    if (tf === true)
     {
         AddRow(prodid,prodname, 1, prodprice);
     }
@@ -22,21 +23,21 @@ function changeqty(prodid, prodprice, tf,minus)
         var p_qty = 0;
         var p_id = $(this).find(".iid").text();
         p_qty = parseInt($(this).find(".iqty").text());
-        if (p_id == prodid) {
+        if (p_id === prodid) {
 
-            if (minus == "false") {
+            if (minus === "false") {
                 p_qty = p_qty + 1;
                 $(this).find(".iqty").text(p_qty);
                 $(this).find(".iamt").text(p_qty * parseFloat(prodprice));
             }
-            else if (minus == "true") {
+            else if (minus === "true") {
                 
-                p_qty = p_qty == 1 ? 0 : p_qty - 1;
-                if (p_qty == 0) {
+                p_qty = p_qty === 1 ? 0 : p_qty - 1;
+                if (p_qty === 0) {
                     var r = confirm("Item will be removed.Do you want to continue?");
                 }
-                if (r == true) { p_qty = 0 } else { p_qty = 1 }
-                if (p_qty == 0 ) {
+                if (r === true) { p_qty = 0 } else { p_qty = 1 }
+                if (p_qty === 0 ) {
                     $(this).remove();
 
                 }
@@ -81,4 +82,9 @@ $("#tblsummary").on("click", ".inegate", function () {
     tf = changeqty(prodid, prodprice, tf, "true");
     
     BillCalc();
+});
+
+$(".btnpay").click(function () {
+    $(".cardamount").text($(".lbltotal").text());
+    $('#payModal').modal('toggle');
 });
