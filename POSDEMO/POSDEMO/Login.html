@@ -1,37 +1,56 @@
-﻿<!DOCTYPE html>
-<html>
+﻿<html>
 <head>
-    <title>Login To POS</title>
-	<meta charset="utf-8" />
+    <title>POS</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link href="Content/Login.css" rel="stylesheet" />
+    <link href="Content/login.css" rel="stylesheet" />
 </head>
 <body>
     <div class="container">
-        <div class="card card-container">
-            <div class="row">
-                <div class="col-md-8 col-xs-12">
-                    <img id="profile-img" src="http://slogics.com/images/logo.jpg" />
-                </div>
+        <div class="row" id="pwd-container">
+            <div class="col-md-4 col-xs-4"></div>
+
+            <div class="col-md-4">
+                <section class="login-form">
+                    <form method="GET" role="login" action="default.html">
+                        <img src="http://slogics.com/images/logo.jpg" class="img-responsive" alt="" />
+                        <input type="text" name="username" placeholder="id" required class="form-control input-lg" value="slogics" />
+
+                        <input type="password" class="form-control input-lg" id="password" placeholder="Password" required="" />
+
+                        <select class="form-control  input-lg" id="sel1">
+                            <option>Counter1</option>
+                            <option>Counter2</option>
+                            <option>Counter3</option>
+                        </select>
+
+                        <div class="pwstrength_viewport_progress"></div>
+
+
+                        <button type="submit" name="go" id="login" class="btn btn-lg btn-primary btn-block">Sign in</button>
+                        
+                    </form>
+
+                  
+                </section>
             </div>
-            <p id="profile-name" class="profile-name-card"></p>
-            <form class="form-signin">
-                <span id="reauth-email" class="reauth-email"></span>
-                <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-                <div id="remember" class="checkbox">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">Sign in</button>
-            </form><!-- /form -->
-            <a href="#" class="forgot-password">
-                Forgot the password?
-            </a>
-        </div><!-- /card-container -->
+
+            <div class="col-md-4"></div>
+
+        </div>
+
+
+
     </div>
+
+   <script type="text/javascript">
+       $('#login').click(function () {
+           window.location.href = 'default.html';
+           return false;
+       });
+   </script>
+  
 </body>
-</html>
+</html>  
