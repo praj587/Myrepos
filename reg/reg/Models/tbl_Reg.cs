@@ -15,6 +15,7 @@ namespace reg.Models
 
     public partial class tbl_Reg
     {
+        [Key]
         public int Cus_Id { get; set; }
         [Required(ErrorMessage = "Name is required.")]
         [Display(Name = "Name : ")]

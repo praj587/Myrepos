@@ -21,7 +21,7 @@ namespace reg.Controllers
         [HttpPost]
         public ActionResult Register(tbl_Reg regdata)
         {
-            if (!ModelState.IsValid)
+            if (ModelState.IsValid)
             {
                 //var Mobileno = Convert.ToString(Request["txtAmount"].ToString());
                 using (var context = new regmodelcontext())
@@ -29,7 +29,11 @@ namespace reg.Controllers
                     var user = context.regusers.Where(u => u.Cus_Mobile == regdata.Cus_Mobile).FirstOrDefault();
 
                     if (user == null)
+                    {
+                        context.regusers.Add(regdata);
+                        context.SaveChanges();
                         return View("Success");
+                    }
                     else
                     {
                         return View("Failure");
