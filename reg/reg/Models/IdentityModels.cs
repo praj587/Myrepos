@@ -17,9 +17,19 @@ namespace reg.Models
             return userIdentity;
         }
     }
+    //public class regmodelcontext : DbContext
+    //{
+    //    public DbSet<tbl_Reg> regusers { get; set; }
+    //}
     public class regmodelcontext : DbContext
     {
+
+        public regmodelcontext() : base("DefaultConnection")
+        {
+        }
+
         public DbSet<tbl_Reg> regusers { get; set; }
+      
     }
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
@@ -27,7 +37,7 @@ namespace reg.Models
             : base("DefaultConnection", throwIfV1Schema: false)
         {
         }
-
+     
         public static ApplicationDbContext Create()
         {
              

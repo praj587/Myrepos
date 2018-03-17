@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using reg.Models;
 
 namespace reg.Controllers
 {
@@ -10,7 +11,10 @@ namespace reg.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            //return View();
+            parveenEntities entities = new parveenEntities();
+            return View(from user in entities.tbl_Reg.Take(10)
+                        select user);
         }
 
         public ActionResult About()
