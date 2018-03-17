@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="parveen001ModelStoreContainer" CdmEntityContainer="parveenEntities">
+    <EntitySetMapping Name="tbl_Reg">
+      <EntityTypeMapping TypeName="parveen001Model.tbl_Reg">
+        <MappingFragment StoreEntitySet="tbl_Reg">
+          <ScalarProperty Name="Cus_Company" ColumnName="Cus_Company" />
+          <ScalarProperty Name="Cus_Id" ColumnName="Cus_Id" />
+          <ScalarProperty Name="Cus_Name" ColumnName="Cus_Name" />
+          <ScalarProperty Name="Cus_Mobile" ColumnName="Cus_Mobile" />
+          <ScalarProperty Name="Cus_Services" ColumnName="Cus_Services" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
