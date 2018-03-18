@@ -1,4 +1,5 @@
-﻿@model IEnumerable < reg.Models.tbl_Reg>
+﻿@model IEnumerable<reg.Models.tbl_Reg>
+@using GridMvc.Html
 
 @{
     Layout = null;
@@ -12,26 +13,34 @@
     <title>Index</title>
 </head>
 <body>
-    <h4>Customers</h4>
-    <hr />
-    <table cellpadding="0" cellspacing="0">
-        <tr>
-            <th>CustomerID</th>
-            <th>ContactName</th>
-            <th>City</th>
-            <th>Country</th>
-        </tr>
-        @*@foreach (tbl_Reg user in Model)
-        {
-            <tr>
-                <td>@customer.CustomerID</td>
-                <td>@customer.ContactName</td>
-                <td>@customer.City</td>
-                <td>@customer.Country</td>
-            </tr>
-        }*@
-    </table>
-    <br />
-    <a href="~/Reports/Report.aspx">View Report</a>
+   
+     
+ 
+
+    <h2>Customers</h2>
+
+    <link href="@Url.Content("~/Content/Gridmvc.css")" rel="stylesheet" />
+    <link href="@Url.Content("~/Content/bootstrap.min.css")" rel="stylesheet" />
+    <script src="@Url.Content("~/Scripts/jquery-1.9.1.min.js")"></script>
+    <script src="@Url.Content("~/Scripts/gridmvc.min.js")"></script>
+
+    <div class="code-cut">
+        @Html.Grid(Model).Columns(columns =>
+   {
+       // columns.Add().Encoded(false).Sanitized(false).SetWidth(10).RenderValueAs(o => Html.CheckBox("checked", false));
+       columns.Add(c => c.Cus_Id).Titled("Registration ID").Filterable(false);
+       columns.Add(c => c.Cus_Name).Titled("Customer Name").Filterable(true);
+       columns.Add(c => c.Cus_Mobile).Titled("Mobile").Filterable(true);
+       columns.Add(c => c.Cus_Services).Titled("Service").Filterable(true);
+       columns.Add()
+       .Encoded(false)
+       .Sanitized(false)
+       .SetWidth(30)
+       .Filterable(false)
+       .RenderValueAs(o => Html.ActionLink("PrintQR", "PrintQRcode", new { id = o.Cus_Id }));
+
+   }).WithPaging(10).Sortable(true)
+    </div>
+    
 </body>
 </html>

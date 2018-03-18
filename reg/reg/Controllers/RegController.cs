@@ -95,7 +95,7 @@ namespace reg.Controllers
                 client.UseDefaultCredentials = false;
                 client.Credentials = new System.Net.NetworkCredential("slogicsolutions@gmail.com", "Admin123$");
                 String msg = "<html><body>this is a <img src=\"" + img + "\"></body></html>";
-                MailMessage mm = new MailMessage("slogicsolutions@gmail.com", "deva_v@ymail.com", "test", "test");
+                MailMessage mm = new MailMessage("slogicsolutions@gmail.com", "praj587@gmail.com", "test", "test");
                 mm.BodyEncoding = UTF8Encoding.UTF8;
                 mm.DeliveryNotificationOptions = DeliveryNotificationOptions.OnFailure;
 

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Schema Namespace="parveen001Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+<Schema Namespace="parveen001Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
   <!--Errors Found During Generation:
 warning 6002: The table/view 'C:\USERS\P9RAJ1\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\REG\REG\APP_DATA\PARVEEN001.MDF.dbo.tbl_Reg' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
   <EntityType Name="tbl_Reg">
@@ -14,7 +14,7 @@ warning 6002: The table/view 'C:\USERS\P9RAJ1\DOCUMENTS\VISUAL STUDIO 2015\PROJE
     <Property Name="Cus_Company" Type="varchar" MaxLength="100" />
   </EntityType>
   <EntityContainer Name="parveen001ModelStoreContainer">
-    <EntitySet Name="tbl_Reg" EntityType="Self.tbl_Reg" store:Type="Tables" store:Schema="dbo">
+    <EntitySet Name="tbl_Reg" EntityType="Self.tbl_Reg" store:Type="Tables" store:Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
       <DefiningQuery>SELECT 
     [tbl_Reg].[Cus_Id] AS [Cus_Id], 
     [tbl_Reg].[Cus_Name] AS [Cus_Name], 
