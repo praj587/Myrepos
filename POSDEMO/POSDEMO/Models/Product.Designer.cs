@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'C:\Users\Parthi\Documents\GitHub\Myrepos\POSDEMO\POSDEMO\Models\Product.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\p9raj1\Documents\Visual Studio 2015\Projects\POSDEMO\POSDEMO\Models\Product.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
