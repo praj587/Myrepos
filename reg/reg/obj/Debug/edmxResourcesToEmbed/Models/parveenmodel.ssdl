@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="parveen001Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns="http://schemas.microsoft.com/ado/2006/04/edm/ssdl">
+  <!--Errors Found During Generation:
+warning 6002: The table/view 'C:\USERS\P9RAJ1\DOCUMENTS\VISUAL STUDIO 2015\PROJECTS\REG\REG\APP_DATA\PARVEEN001.MDF.dbo.tbl_Reg' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
+  <EntityType Name="tbl_Reg">
+    <Key>
+      <PropertyRef Name="Cus_Id" />
+      <PropertyRef Name="Cus_Name" />
+    </Key>
+    <Property Name="Cus_Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cus_Name" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Cus_Mobile" Type="varchar" MaxLength="15" />
+    <Property Name="Cus_Services" Type="varchar" MaxLength="150" />
+    <Property Name="Cus_Company" Type="varchar" MaxLength="100" />
+  </EntityType>
+  <EntityContainer Name="parveen001ModelStoreContainer">
+    <EntitySet Name="tbl_Reg" EntityType="Self.tbl_Reg" store:Type="Tables" store:Schema="dbo" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator">
+      <DefiningQuery>SELECT 
+    [tbl_Reg].[Cus_Id] AS [Cus_Id], 
+    [tbl_Reg].[Cus_Name] AS [Cus_Name], 
+    [tbl_Reg].[Cus_Mobile] AS [Cus_Mobile], 
+    [tbl_Reg].[Cus_Services] AS [Cus_Services], 
+    [tbl_Reg].[Cus_Company] AS [Cus_Company]
+    FROM [dbo].[tbl_Reg] AS [tbl_Reg]</DefiningQuery>
+    </EntitySet>
+  </EntityContainer>
+</Schema>
